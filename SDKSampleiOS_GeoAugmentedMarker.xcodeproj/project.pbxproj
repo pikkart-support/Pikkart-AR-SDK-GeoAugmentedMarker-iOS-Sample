@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B6DC0534816AD84B104AAA8 /* libPods-MyGeoApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F7DE7213CAF67F3652A4 /* libPods-MyGeoApplication.a */; };
 		E13B7B7C1FED01CB00F0E4E2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E13B7B7B1FED01CA00F0E4E2 /* Podfile */; };
 		E15000CB1FE15CC8006E14FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15000CA1FE15CC8006E14FB /* AppDelegate.swift */; };
 		E15000CD1FE15CC8006E14FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15000CC1FE15CC8006E14FB /* ViewController.swift */; };
@@ -25,7 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B646F7DE7213CAF67F3652A4 /* libPods-MyGeoApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGeoApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13B7B7B1FED01CA00F0E4E2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		E15000C71FE15CC8006E14FB /* SDKSampleiOS_GeoAugmentedMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKSampleiOS_GeoAugmentedMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15000CA1FE15CC8006E14FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +52,6 @@
 				E15000EF1FE16706006E14FB /* libsqlite3.tbd in Frameworks */,
 				E15000DF1FE15D8A006E14FB /* pikkartAR.framework in Frameworks */,
 				E15000E01FE15D8A006E14FB /* pikkartARGeo.framework in Frameworks */,
-				9B6DC0534816AD84B104AAA8 /* libPods-MyGeoApplication.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +109,6 @@
 				E15000EE1FE16706006E14FB /* libsqlite3.tbd */,
 				E15000DD1FE15D89006E14FB /* pikkartAR.framework */,
 				E15000DE1FE15D89006E14FB /* pikkartARGeo.framework */,
-				B646F7DE7213CAF67F3652A4 /* libPods-MyGeoApplication.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
