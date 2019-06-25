@@ -36,6 +36,7 @@
 		E13B7B7B1FED01CA00F0E4E2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E13B7B8A1FED1A1C00F0E4E2 /* pikkartAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pikkartAR.framework; sourceTree = "<group>"; };
 		E13B7B8B1FED1A1C00F0E4E2 /* pikkartARGeo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pikkartARGeo.framework; sourceTree = "<group>"; };
+		E13B7B7B1FED01CA00F0E4E2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		E15000C71FE15CC8006E14FB /* SDKSampleiOS_GeoAugmentedMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKSampleiOS_GeoAugmentedMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15000CA1FE15CC8006E14FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15000CC1FE15CC8006E14FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +63,8 @@
 				A5B6048422C2716C000FEECB /* pikkartARGeo.framework in Frameworks */,
 				E15000EF1FE16706006E14FB /* libsqlite3.tbd in Frameworks */,
 				140F796B2FA7909E2F5E32C8 /* libPods-SDKSampleiOS_GeoAugmentedMarker.a in Frameworks */,
+				E15000DF1FE15D8A006E14FB /* pikkartAR.framework in Frameworks */,
+				E15000E01FE15D8A006E14FB /* pikkartARGeo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +128,8 @@
 				E13B7B8B1FED1A1C00F0E4E2 /* pikkartARGeo.framework */,
 				E15000F01FE1670C006E14FB /* libz.tbd */,
 				E15000EE1FE16706006E14FB /* libsqlite3.tbd */,
-				369C178C60A58C72721CD608 /* libPods-SDKSampleiOS_GeoAugmentedMarker.a */,
+				E15000DD1FE15D89006E14FB /* pikkartAR.framework */,
+				E15000DE1FE15D89006E14FB /* pikkartARGeo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
