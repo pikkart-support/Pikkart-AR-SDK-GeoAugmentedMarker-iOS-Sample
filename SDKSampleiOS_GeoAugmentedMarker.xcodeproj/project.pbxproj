@@ -7,26 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B6DC0534816AD84B104AAA8 /* libPods-MyGeoApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F7DE7213CAF67F3652A4 /* libPods-MyGeoApplication.a */; };
+		140F796B2FA7909E2F5E32C8 /* libPods-SDKSampleiOS_GeoAugmentedMarker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 369C178C60A58C72721CD608 /* libPods-SDKSampleiOS_GeoAugmentedMarker.a */; };
+		A5B6048322C2716C000FEECB /* pikkartAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B6048022C2715F000FEECB /* pikkartAR.framework */; };
+		A5B6048422C2716C000FEECB /* pikkartARGeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B6047F22C2715F000FEECB /* pikkartARGeo.framework */; };
+		A5B6048622C2717D000FEECB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B6048522C2717D000FEECB /* CoreMotion.framework */; };
 		E13B7B7C1FED01CB00F0E4E2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E13B7B7B1FED01CA00F0E4E2 /* Podfile */; };
 		E15000CB1FE15CC8006E14FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15000CA1FE15CC8006E14FB /* AppDelegate.swift */; };
 		E15000CD1FE15CC8006E14FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15000CC1FE15CC8006E14FB /* ViewController.swift */; };
 		E15000D01FE15CC8006E14FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15000CE1FE15CC8006E14FB /* Main.storyboard */; };
 		E15000D21FE15CC8006E14FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15000D11FE15CC8006E14FB /* Assets.xcassets */; };
 		E15000D51FE15CC8006E14FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15000D31FE15CC8006E14FB /* LaunchScreen.storyboard */; };
-		E15000DF1FE15D8A006E14FB /* pikkartAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15000DD1FE15D89006E14FB /* pikkartAR.framework */; };
-		E15000E01FE15D8A006E14FB /* pikkartARGeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15000DE1FE15D89006E14FB /* pikkartARGeo.framework */; };
 		E15000E41FE15E03006E14FB /* PKTGeoMain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E15000E21FE15E03006E14FB /* PKTGeoMain.bundle */; };
 		E15000EF1FE16706006E14FB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E15000EE1FE16706006E14FB /* libsqlite3.tbd */; };
 		E15000F11FE1670C006E14FB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E15000F01FE1670C006E14FB /* libz.tbd */; };
-		E15000F51FE16D38006E14FB /* license.spz in Resources */ = {isa = PBXBuildFile; fileRef = E15000F41FE16D38006E14FB /* license.spz */; };
 		E15000F71FE17863006E14FB /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E15000F61FE17859006E14FB /* GoogleMaps.bundle */; };
 		E15000F91FE17AF2006E14FB /* PKTGeoElementViewDefault.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15000F81FE17AF2006E14FB /* PKTGeoElementViewDefault.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B646F7DE7213CAF67F3652A4 /* libPods-MyGeoApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGeoApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E13B7B7B1FED01CA00F0E4E2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		167C056E2E5B2C467DDC70C2 /* Pods-SDKSampleiOS_GeoAugmentedMarker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKSampleiOS_GeoAugmentedMarker.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDKSampleiOS_GeoAugmentedMarker/Pods-SDKSampleiOS_GeoAugmentedMarker.release.xcconfig"; sourceTree = "<group>"; };
+		369C178C60A58C72721CD608 /* libPods-SDKSampleiOS_GeoAugmentedMarker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKSampleiOS_GeoAugmentedMarker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A754CAC1B5F08C577F31A8B /* Pods-SDKSampleiOS_GeoAugmentedMarker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKSampleiOS_GeoAugmentedMarker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDKSampleiOS_GeoAugmentedMarker/Pods-SDKSampleiOS_GeoAugmentedMarker.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B6047922C26DBF000FEECB /* pikkartARGeo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pikkartARGeo.framework; sourceTree = "<group>"; };
+		A5B6047A22C26DC0000FEECB /* pikkartAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pikkartAR.framework; sourceTree = "<group>"; };
+		A5B6047F22C2715F000FEECB /* pikkartARGeo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pikkartARGeo.framework; path = MyGeoApplication/pikkartARGeo.framework; sourceTree = "<group>"; };
+		A5B6048022C2715F000FEECB /* pikkartAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pikkartAR.framework; path = MyGeoApplication/pikkartAR.framework; sourceTree = "<group>"; };
+		A5B6048522C2717D000FEECB /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E13B7B7B1FED01CA00F0E4E2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E13B7B8A1FED1A1C00F0E4E2 /* pikkartAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pikkartAR.framework; sourceTree = "<group>"; };
+		E13B7B8B1FED1A1C00F0E4E2 /* pikkartARGeo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pikkartARGeo.framework; sourceTree = "<group>"; };
 		E15000C71FE15CC8006E14FB /* SDKSampleiOS_GeoAugmentedMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKSampleiOS_GeoAugmentedMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15000CA1FE15CC8006E14FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15000CC1FE15CC8006E14FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,13 +43,10 @@
 		E15000D11FE15CC8006E14FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15000D41FE15CC8006E14FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E15000D61FE15CC8006E14FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E15000DD1FE15D89006E14FB /* pikkartAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pikkartAR.framework; path = ../../pikkartAR.framework; sourceTree = "<group>"; };
-		E15000DE1FE15D89006E14FB /* pikkartARGeo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pikkartARGeo.framework; path = ../../pikkartARGeo.framework; sourceTree = "<group>"; };
 		E15000E21FE15E03006E14FB /* PKTGeoMain.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PKTGeoMain.bundle; sourceTree = "<group>"; };
 		E15000E51FE15EFC006E14FB /* MyGeoApplication-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyGeoApplication-Bridging-Header.h"; sourceTree = "<group>"; };
 		E15000EE1FE16706006E14FB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		E15000F01FE1670C006E14FB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		E15000F41FE16D38006E14FB /* license.spz */ = {isa = PBXFileReference; lastKnownFileType = file; path = license.spz; sourceTree = "<group>"; };
 		E15000F61FE17859006E14FB /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		E15000F81FE17AF2006E14FB /* PKTGeoElementViewDefault.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKTGeoElementViewDefault.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,11 +56,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B6048622C2717D000FEECB /* CoreMotion.framework in Frameworks */,
 				E15000F11FE1670C006E14FB /* libz.tbd in Frameworks */,
+				A5B6048322C2716C000FEECB /* pikkartAR.framework in Frameworks */,
+				A5B6048422C2716C000FEECB /* pikkartARGeo.framework in Frameworks */,
 				E15000EF1FE16706006E14FB /* libsqlite3.tbd in Frameworks */,
-				E15000DF1FE15D8A006E14FB /* pikkartAR.framework in Frameworks */,
-				E15000E01FE15D8A006E14FB /* pikkartARGeo.framework in Frameworks */,
-				9B6DC0534816AD84B104AAA8 /* libPods-MyGeoApplication.a in Frameworks */,
+				140F796B2FA7909E2F5E32C8 /* libPods-SDKSampleiOS_GeoAugmentedMarker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +71,8 @@
 		D33BE04AD3F5DCE35BE55DCC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				6A754CAC1B5F08C577F31A8B /* Pods-SDKSampleiOS_GeoAugmentedMarker.debug.xcconfig */,
+				167C056E2E5B2C467DDC70C2 /* Pods-SDKSampleiOS_GeoAugmentedMarker.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -71,8 +80,9 @@
 		E15000BE1FE15CC8006E14FB = {
 			isa = PBXGroup;
 			children = (
+				A5B6048022C2715F000FEECB /* pikkartAR.framework */,
+				A5B6047F22C2715F000FEECB /* pikkartARGeo.framework */,
 				E15000F61FE17859006E14FB /* GoogleMaps.bundle */,
-				E15000F41FE16D38006E14FB /* license.spz */,
 				E15000F81FE17AF2006E14FB /* PKTGeoElementViewDefault.xib */,
 				E15000C91FE15CC8006E14FB /* MyGeoApplication */,
 				E15000C81FE15CC8006E14FB /* Products */,
@@ -92,6 +102,8 @@
 		E15000C91FE15CC8006E14FB /* MyGeoApplication */ = {
 			isa = PBXGroup;
 			children = (
+				A5B6047A22C26DC0000FEECB /* pikkartAR.framework */,
+				A5B6047922C26DBF000FEECB /* pikkartARGeo.framework */,
 				E13B7B7B1FED01CA00F0E4E2 /* Podfile */,
 				E15000E21FE15E03006E14FB /* PKTGeoMain.bundle */,
 				E15000CA1FE15CC8006E14FB /* AppDelegate.swift */,
@@ -108,11 +120,12 @@
 		E15000DC1FE15D89006E14FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5B6048522C2717D000FEECB /* CoreMotion.framework */,
+				E13B7B8A1FED1A1C00F0E4E2 /* pikkartAR.framework */,
+				E13B7B8B1FED1A1C00F0E4E2 /* pikkartARGeo.framework */,
 				E15000F01FE1670C006E14FB /* libz.tbd */,
 				E15000EE1FE16706006E14FB /* libsqlite3.tbd */,
-				E15000DD1FE15D89006E14FB /* pikkartAR.framework */,
-				E15000DE1FE15D89006E14FB /* pikkartARGeo.framework */,
-				B646F7DE7213CAF67F3652A4 /* libPods-MyGeoApplication.a */,
+				369C178C60A58C72721CD608 /* libPods-SDKSampleiOS_GeoAugmentedMarker.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +141,6 @@
 				E15000C31FE15CC8006E14FB /* Sources */,
 				E15000C41FE15CC8006E14FB /* Frameworks */,
 				E15000C51FE15CC8006E14FB /* Resources */,
-				F8851A2EFA733A376C7BC076 /* [CP] Embed Pods Frameworks */,
 				F1DA644A2CE9F78B18E60943 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -184,7 +196,6 @@
 				E13B7B7C1FED01CB00F0E4E2 /* Podfile in Resources */,
 				E15000D01FE15CC8006E14FB /* Main.storyboard in Resources */,
 				E15000F71FE17863006E14FB /* GoogleMaps.bundle in Resources */,
-				E15000F51FE16D38006E14FB /* license.spz in Resources */,
 				E15000E41FE15E03006E14FB /* PKTGeoMain.bundle in Resources */,
 				E15000F91FE17AF2006E14FB /* PKTGeoElementViewDefault.xib in Resources */,
 			);
@@ -204,7 +215,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MyGeoApplication-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SDKSampleiOS_GeoAugmentedMarker-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,31 +228,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MyGeoApplication/Pods-MyGeoApplication-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SDKSampleiOS_GeoAugmentedMarker/Pods-SDKSampleiOS_GeoAugmentedMarker-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGeoApplication/Pods-MyGeoApplication-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8851A2EFA733A376C7BC076 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGeoApplication/Pods-MyGeoApplication-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDKSampleiOS_GeoAugmentedMarker/Pods-SDKSampleiOS_GeoAugmentedMarker-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -387,14 +383,17 @@
 		};
 		E15000DA1FE15CC8006E14FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A754CAC1B5F08C577F31A8B /* Pods-SDKSampleiOS_GeoAugmentedMarker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3G6WA29NLC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../../",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MyGeoApplication",
 				);
 				INFOPLIST_FILE = MyGeoApplication/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -404,9 +403,10 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pikkart.iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pikkart.trial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c7181402-a56c-4e4a-822c-c8537b729def";
+				PROVISIONING_PROFILE_SPECIFIER = PikkartWildCardDevProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "MyGeoApplication/MyGeoApplication-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,14 +416,17 @@
 		};
 		E15000DB1FE15CC8006E14FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167C056E2E5B2C467DDC70C2 /* Pods-SDKSampleiOS_GeoAugmentedMarker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3G6WA29NLC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../../",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MyGeoApplication",
 				);
 				INFOPLIST_FILE = MyGeoApplication/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -433,9 +436,10 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pikkart.iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pikkart.trial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c7181402-a56c-4e4a-822c-c8537b729def";
+				PROVISIONING_PROFILE_SPECIFIER = PikkartWildCardDevProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "MyGeoApplication/MyGeoApplication-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
